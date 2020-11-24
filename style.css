@@ -1,0 +1,69 @@
+
+h1{
+  font-size: 50px;
+  font-family : "Comic Sans MS";
+  text-align: center;
+  padding-bottom: 140px;
+}
+.header-logo{
+  color : white;
+  font-size: 30px;
+  text-align : center;
+  background-color : black;
+}
+.form-box{
+  text-align : center;
+
+}
+
+.form-box{
+  margin : 50px 30px;
+}
+label + input[type="button"],
+label + label {
+    margin-left: 15px;
+}
+
+.button{
+  font-family: "M PLUS Rounded 1c";;
+  font-size : 30px;
+  background-color: white	;
+  border: 2px solid black;
+  border-radius: 4px;
+  transition: .1s;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+.button:hover{
+  background-color: black;
+  color : white;
+  border-color: #cbe585;
+}
+.mause{
+  text-align:center;
+  padding : 80px 0px 0px 0px;
+}
+*{
+  box-sizing: border-box;
+}
+
+img {
+max-width: 100%;
+}
+@media screen and (max-width:480px){
+  img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .button{
+    width: 50% !important;
+    margin : 10px;
+    float: none;
+  }
+  h1{
+    padding-bottom:0px;
+  }
+  .mause{
+    padding-top: : 10px;
+  }
+}
